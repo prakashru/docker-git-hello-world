@@ -3,7 +3,7 @@
 FROM ubuntu:16.04
 
 # LABEL is a key value pair 
-LABEL "Maintainer"="WebPrism"
+LABEL "Maintainer"="WebPrism" version="1.0"
 
 # RUN COMMAND BASICALLY runs the command in the terminal and creates an image.
 # Install all the updates for UBUNTU
